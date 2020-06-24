@@ -46,6 +46,7 @@ body {
 section { padding: 80px 0; }
 
 .box { padding: 1%; }
+.medal-box { padding: 1%; }
 
 /* ------- HEADINGS ------- */
 
@@ -72,7 +73,12 @@ h2 {
 }
 
 h3 {
+    font-weight: 400;
     font-size: 110%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
@@ -84,6 +90,16 @@ h2::after {
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+h3::after {
+    display: block;
+    height: 2px;
+    background-color: #36ecb9;
+    content: "";
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
 /* ------- PARAGRAPHS ------- */
@@ -129,10 +145,23 @@ h2::after {
 
 /* ------- ICONS ------- */
 .icon-big {
-    font-size: 350%;
+    text-align: center;
+    margin: auto;
+    font-size: 550%;
     display: block;
-    color: #36ecb9;
     margin-bottom: 10px;
+}
+
+.gold {
+    color: #FFDF00;
+}
+
+.silver {
+    color: #C0C0C0;
+}
+
+.bronze {
+    color: #cd7f32 ;
 }
 
 .icon-small {
@@ -178,10 +207,49 @@ img:hover {
 }
 
 /* ----------------------------------------- */
+/* SPORTS */
+/* ----------------------------------------- */ 
+
+.section-sports .long-copy {
+    padding-bottom: 0;
+}
+
+.medal-box p {
+    color: #ddd;
+    font-size: 110%;
+    font-weight: 300;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.medal-box {
+    border-radius: 1%;
+    padding: 4% 0;
+    /* background-color: #0c7d5e;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)), url(img/abstract-shapes-green-min.jpg);
+    transition: box-shadow 0.2s, background-image 0.2s;
+}
+
+.medal-box:hover {
+    border-radius: 1%;
+    padding: 4% 0;
+    /* background-color: #0c7d5e;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(img/abstract-shapes-green-min.jpg);
+    box-shadow: 0 0px 20px #5e5959;
+}
+
+.contest {
+    padding-top: 4%;
+}
+
+/* ----------------------------------------- */
 /* SECTIONS */
 /* ----------------------------------------- */ 
 
-.section-captures { background-color: #f4f4f4; }
+.section-captures,
+.section-sports { background-color: #f4f4f4; }
 
 .section-origami img { filter: brightness(1.50); }
 

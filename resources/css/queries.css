@@ -78,6 +78,11 @@
         width: 50%;
         margin: 0 0 3% 0;
     }
+
+    .section-sports .col {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
     
     .wide-box {
         width: 100%;
