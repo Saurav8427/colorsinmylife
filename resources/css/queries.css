@@ -47,6 +47,11 @@
 
 @media only screen and (max-width: 867px) {
 
+    header img {
+        width: 150px;
+        height: auto;
+    }
+
     .box { 
         border-right: 2.5vw white solid; 
     }
