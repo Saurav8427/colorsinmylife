@@ -47,6 +47,12 @@
 
 @media only screen and (max-width: 867px) {
 
+    header h1 {
+        margin-top: 17%;
+        margin-left: 15%;
+        /* transform: translate(15%, 150%); */
+    }
+
     .box { 
         border-right: 2.5vw white solid; 
     }

@@ -179,6 +179,34 @@ h3::after {
 }
 
 /* ----------------------------------------- */
+/* HEADER */
+/* ----------------------------------------- */ 
+
+header {
+    padding: 80px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/running-min.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Image stays at same place */
+    height: 100vh;
+}
+
+header .desc-box {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%; /* Same as margin:0 auto (to center the content) */
+    color: #10ac80;
+    padding-bottom: 20px;
+    margin-top: 2%;
+    color: #a3f6df;
+}
+
+header h1 {
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
+/* ----------------------------------------- */
 /* IMAGES */
 /* ----------------------------------------- */ 
 
@@ -222,6 +250,7 @@ img:hover {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 5px;
+    padding: 0 30px;
 }
 
 .medal-box {
