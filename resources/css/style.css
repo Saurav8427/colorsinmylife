@@ -92,7 +92,7 @@ h2::after {
     margin-top: 30px;
 }
 
-h3::after {
+.section-sports h3::after {
     display: block;
     height: 2px;
     background-color: #36ecb9;
@@ -168,9 +168,8 @@ h3::after {
     display: inline-block;
     width: 30px;
     text-align: center;
-    color: #36ecb9;
+    color: #333;
     font-size: 120%;
-    margin-right: 10px;
 
     /* Secrets to align text & icons */
     line-height: 120%;
@@ -209,7 +208,9 @@ header h1 {
 /* IMAGES */
 /* ----------------------------------------- */ 
 
-img {
+.section-origami img,
+.section-captures img,
+.section-sketches img {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 2.5px;
@@ -220,7 +221,12 @@ img {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-img:hover {
+.section-origami img:hover,
+.section-origami img:active,
+.section-captures img:hover,
+.section-captures img:active,
+.section-sketches img:hover,
+.section-sketches img:active {
     cursor: pointer;
     opacity: 1;
     transform: scale(1.035);
@@ -274,9 +280,43 @@ header img {
     box-shadow: 0 0px 20px #5e5959;
 }
 
-.contest {
+.section-sports h3 {
     padding-top: 4%;
 }
+
+/* ----------------------------------------- */
+/* PROJECTS */
+/* ----------------------------------------- */ 
+
+.projects img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    opacity: 1;
+    transition: filter 0.2s;
+}
+
+.project-feature { 
+    display:inline-block;
+    margin-right: 3px;
+    font-size: 100%;
+}
+
+.projects .box {
+    border-radius: 1%;
+    background-color: #93f5d9;
+    padding: 10px;
+    box-shadow: 0 2px 10px #f4f4ff;
+    transition: box-shadow 0.2s, background-color 0.2s;
+}
+
+.projects .box:hover {
+    cursor: pointer;
+    background-color: #c2f5e6;
+    box-shadow: 0 2px 20px #333;
+}
+
+
 
 /* ----------------------------------------- */
 /* SECTIONS */

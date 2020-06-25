@@ -52,22 +52,25 @@
         height: auto;
     }
 
-    .box { 
+    .section-origami .box,
+    .section-captures .box,
+    .section-sketches .box { 
         border-right: 2.5vw white solid; 
     }
 
-    .box img {
+    .section-origami .box img,
+    .section-captures .box img,
+    .section-sketches .box img {
         display: block;
         margin: auto;
         width: 190px;
         height: 320px;
-    }
-    
-    img {
         opacity: 1;
     }
     
-    img:hover {
+    .section-origami .box img:hover,
+    .section-captures .box img:hover,
+    .section-sketches .box img:hover {
         transform: scale(1.15);
     }
 
@@ -85,6 +88,11 @@
     }
 
     .section-sports .col {
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+
+    .projects .col {
         width: 100%;
         margin: 0 0 3% 0;
     }
