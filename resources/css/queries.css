@@ -52,11 +52,11 @@
         height: auto;
     }
 
-    .section-origami .box,
+    /* .section-origami .box,
     .section-captures .box,
     .section-sketches .box { 
         border-right: 2.5vw white solid; 
-    }
+    } */
 
     .section-origami .box img,
     .section-captures .box img,
@@ -71,7 +71,7 @@
     .section-origami .box img:hover,
     .section-captures .box img:hover,
     .section-sketches .box img:hover {
-        transform: scale(1.15);
+        transform: scale(1.075);
     }
 
     body { font-size: 16px; }
@@ -102,7 +102,7 @@
     }
 
     .wide-box img {
-        width: 80%;
+        width: 100%;
     }
 
     .long-copy {
@@ -117,7 +117,7 @@
 
 @media only screen and (max-width: 480px) {
 
-    .section-origami .box img,
+    /* .section-origami .box img,
     .section-captures .box img,
     .section-sketches .box img  {
         display: block;
@@ -125,7 +125,7 @@
         width: 80%;
         height: auto;
         transform: scale(1.1);
-    }
+    } */
 
     .col { 
         width: 100%;

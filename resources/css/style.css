@@ -111,23 +111,6 @@ h2::after {
     color: #10ac80;
     padding-bottom: 20px;
 }
-.section-origami .box,
-.section-origami .wide-box {
-    padding: 20px;
-    background-image:  url(img/abstract-shapes-green-min.jpg);
-}
-
-.section-captures .box,
-.section-captures .wide-box {
-    padding: 20px;
-    background-image:  url(img/canvas-min.jpg);
-}
-
-.section-sketches .box,
-.section-sketches .wide-box {
-    padding: 20px;
-    background-image:  url(img/dark-woven-grey-min.jpg);
-}
 
 .box p {
     padding: 70% 0;
@@ -183,7 +166,7 @@ h2::after {
 
 header {
     padding: 80px 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/running-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/running-min-res.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Image stays at same place */
@@ -202,47 +185,6 @@ header .desc-box {
 header h1 {
     margin-top: 3%;
     margin-left: 15%;
-}
-
-/* ----------------------------------------- */
-/* IMAGES */
-/* ----------------------------------------- */ 
-
-.section-origami img,
-.section-captures img,
-.section-sketches img {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 2.5px;
-    opacity: 0.9;
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.section-origami img:hover,
-.section-origami img:active,
-.section-captures img:hover,
-.section-captures img:active,
-.section-sketches img:hover,
-.section-sketches img:active {
-    cursor: pointer;
-    opacity: 1;
-    transform: scale(1.035);
-}
-
-header img {
-    margin-left: 15%;
-    width: 20%;
-    height: auto;
-    border-radius: 2px;
-}
-.wide {
-    display: block;
-    width: 95%;
-    margin: auto;
-    padding: 10px 0;
 }
 
 /* ----------------------------------------- */
@@ -267,17 +209,21 @@ header img {
 .medal-box {
     border-radius: 1%;
     padding: 4% 0;
-    /* background-color: #0c7d5e;*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)), url(img/abstract-shapes-green-min.jpg);
-    transition: box-shadow 0.2s, background-image 0.2s;
+    background-color: #0c7d5e;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)), url(img/abstract-shapes-green-min.jpg); */
+    /* background: #05b68a ; 
+    background: linear-gradient(to bottom, #05b68a  0%,#374d47  100%);  */
+    transition: box-shadow 0.2, background-image 0.2s;
 }
 
 .medal-box:hover {
     border-radius: 1%;
     padding: 4% 0;
-    /* background-color: #0c7d5e;*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(img/abstract-shapes-green-min.jpg);
-    box-shadow: 0 0px 20px #5e5959;
+    background-color: #1c9c7a;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(img/abstract-shapes-green-min.jpg); */
+    /* background: #05b68acb ; 
+    background: linear-gradient(to bottom, #05b68a77  0%,#374d47  100%);  */
+    box-shadow: 0 2px 10px #999;
 }
 
 .section-sports h3 {
@@ -304,7 +250,8 @@ header img {
 
 .projects .box {
     border-radius: 1%;
-    background-color: #93f5d9;
+    /* background-color: #93f5d9; */
+    background-color: #ddd;
     padding: 10px;
     box-shadow: 0 2px 10px #f4f4ff;
     transition: box-shadow 0.2s, background-color 0.2s;
@@ -313,14 +260,62 @@ header img {
 .projects .box:hover {
     cursor: pointer;
     background-color: #c2f5e6;
-    box-shadow: 0 2px 20px #333;
+    box-shadow: 0 2px 7px #999;
 }
 
 
+/* ----------------------------------------- */
+/* ARTS & CRAFTS */
+/* ----------------------------------------- */ 
+
+.section-origami .box,
+.section-origami .wide-box {
+    padding: 12px;
+    border-radius: 1%;
+    /* background-image:  url(img/abstract-shapes-green-min.jpg); */
+    background-color: #0c7d5e;
+}
+
+.section-captures .box,
+.section-captures .wide-box {
+    padding: 12px;
+    border-radius: 1%;
+    /* background-image:  url(img/canvas-min.jpg); */
+    background-color: #776152;
+}
+
+.section-sketches .box,
+.section-sketches .wide-box {
+    padding: 12px;
+    border-radius: 1%;
+    /* background-image:  url(img/dark-woven-grey-min.jpg); */
+    background-color: #555;
+}
 
 /* ----------------------------------------- */
-/* SECTIONS */
+/* IMAGES */
 /* ----------------------------------------- */ 
+
+.section-origami img,
+.section-captures img,
+.section-sketches img {
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.section-origami img:hover,
+.section-origami img:active,
+.section-captures img:hover,
+.section-captures img:active,
+.section-sketches img:hover,
+.section-sketches img:active {
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.1);
+}
 
 .section-captures,
 .section-sports { background-color: #f4f4f4; }
@@ -328,6 +323,19 @@ header img {
 .section-origami img { filter: brightness(1.50); }
 
 .section-sketches img { filter: brightness(1.30); }
+
+header img {
+    margin-left: 15%;
+    width: 20%;
+    height: auto;
+    border-radius: 2px;
+}
+
+/* .wide {
+    display: block;
+    width: 10px;
+    margin: auto;
+} */
 
 /* ----------------------------------------- */
 /* FOOTER */
