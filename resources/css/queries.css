@@ -102,6 +102,22 @@
         padding-bottom: 5%;
     }
 
+    .gallery-cell-wide {
+        border: 2px solid #aaa;
+        border-radius: 1%;
+        text-align: center;
+        width: 64.8%;
+        height: auto;
+        margin-right: 2%;
+    }
+
+    .gallery-cell-wide img {
+        width: 100%;
+        height: auto;
+        opacity: 0.9;
+        transition: transform 0.5s, opacity 0.5s, filter 2s;
+    }
+
     .section-sports .col {
         width: 100%;
         margin: 0 0 3% 0;
@@ -125,6 +141,39 @@
         margin-left: 0%;
         margin-bottom: 2%;
     }
+
+
+
+    /*************** Carousel ***********/
+
+    /* .section-captures-carousel .box {
+        padding: ;
+    } */
+
+    .section-origami-carousel .box,
+    .section-sketches-carousel .box  {
+        border-radius: 1%;
+    }
+
+    .section-captures-carousel .gallery-cell-wide {
+        margin-top: 13.5%;
+    }
+
+    .section-sketches-carousel .gallery-cell-wide {
+        margin-top: 10.5%;
+        padding-top: 4%;
+    }
+
+    .gallery-cell {
+        padding-top: 3%;
+        height: auto;
+    }
+
+    .gallery-cell-wide {
+        padding-top: 3.5%;
+        height: auto;
+    }
+
 }
 
 
@@ -142,9 +191,42 @@
         transform: scale(1.1);
     } */
 
+    .section-captures-carousel .box {
+        padding: 0;
+    }
+
+    .section-origami-carousel .box,
+    .section-sketches-carousel .box  {
+        padding: 0;
+        border-radius: 1%;
+    }
+
+    .section-captures-carousel .gallery-cell-wide {
+        margin-top: 33.5%;
+        width: 100%;
+    }
+
+    .section-sketches-carousel .gallery-cell-wide {
+        margin-top: 33.5%;
+        width: 100% ;
+        padding: 0 1%;
+    }
+
     .gallery-cell {
-        width: 75%;   
+        margin-right: 10%;
+        width: 80%;   
         height: auto;
+        padding-top: 5%;
+    }
+
+    .gallery-cell-wide {
+        width: 84.8%;
+        height: auto;
+        margin-right: 10%;
+    }
+
+    .gallery-cell-wide img {
+        padding-top: 7%;
     }
 
     .col { 
