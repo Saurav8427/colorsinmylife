@@ -15,16 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <!-- Animation -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-        <!-- Favicon -->
-        <!-- <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
-        <link rel="manifest" href="resources/favicons/site.webmanifest">
-        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="resources/favicons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff"> -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <title>Colorsinmylife</title>
         
     </head>
@@ -259,52 +250,76 @@
 
         </section>
 
-        <section class="section-origami js--section-features" id="features">
+        <section class="section-origami-carousel js--section-features" id="features">
             <div class="row">
                 <h2>origami</h2>
                 <p class="long-copy">
                     I folded paper many times and come up with some nice stuff. Making these creatures with paper is great fun. Thanks to Jo Nakashima to helping with the designs.
                 </p>
             </div>
-            
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/aeroplane.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/tree.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/man.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/wolf.jpg">
+            <div class="row">
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/aeroplane.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/t-rex.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/heart.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/tree.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/tulip.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/man.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/wolf.jpg">
+                            </div>
+                        </div>
+                    </div><div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/origami/nakamura.jpg">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/heart.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/t-rex.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/tulip.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/nakamura.jpg">
-                </div>
-            </div>
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/origami/bottle.jpg">
-                </div>
-                <!-- <div class="col span-1-of-4 box soon">
-                    <p>Coming<br>Soon</p>
-                </div> -->
         </section>
-        
-        <section class="section-captures js--section-features" id="features">
+
+        <section class="section-captures-carousel js--section-features" id="features">
             <div class="row">
                 <h2>Captures</h2>
                 <p class="long-copy">
@@ -312,80 +327,70 @@
                 </p>
             </div>
             
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/bigleaf-flower.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/branch-zoom.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/butterfly-blue-bg.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/colorful-flower.jpg">
-                </div>
-            </div>
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/flower-road.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/dandelion.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/pigeon-bright.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/red-glown.jpg">
-                </div>
-            </div>
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/pink-contrast-flower.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/maroon-flower.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/white-bright.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/yellow-flower.jpg">
-                </div>
-            </div>
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/old-sunflower.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/red-zoom.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/curly-flower.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/red-buds.jpg">
-                </div>
-            </div>
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/red-cluster.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/captures/cards.jpg">
-                </div>
-                <div class="col span-2-of-4 wide-box">
-                    <img class="wide" src="resources/captures/dreaded-leaf.jpg">
+            <div class="row">
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/bigleaf-flower.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/branch-zoom.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/butterfly-blue-bg.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell-wide">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/dreaded-leaf.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/flower-road.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/dandelion.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/pigeon-bright.jpg">
+                            </div>
+                        </div>
+                    </div><div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/captures/red-glown.jpg">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <!-- <div class="col span-1-of-4 box soon">
-                <p>Coming<br>Soon</p>
-            </div> -->
         </section>
 
-        <section class="section-sketches js--section-features" id="features">
+        <section class="section-sketches-carousel js--section-features" id="features">
             <div class="row">
                 <h2>sketches</h2>
                 <p class="long-copy">
@@ -393,29 +398,51 @@
                 </p>
             </div>
             
-            <div class="row js--wp-1">
-                <div class="col span-1-of-4 box">
-                    <img src="resources/sketches/coffee-cup.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/sketches/flower-zoomout-min.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/sketches/rbtagore.jpg">
-                </div>
-                <div class="col span-1-of-4 box">
-                    <img src="resources/sketches/me.jpg">
-                </div>
-            </div>
-            <div class="row js--wp-1">
-                <div class="col span-2-of-4 wide-box">
-                    <img class="wide" src="resources/sketches/eye.jpg">
-                </div>
-                <div class="col span-2-of-4 wide-box">
-                    <img class="wide" src="resources/sketches/dreaded-leaf.jpg">
-                </div>
-                <div class="col span-1-of-4 box soon">
-                    <p>Coming<br>Soon</p>
+            <div class="row">
+                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/sketches/coffee-cup.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/sketches/flower-zoomout-min.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/sketches/rbtagore.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1 box">
+                                <img src="resources/sketches/me.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell-wide">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1">
+                                <img src="resources/sketches/eye.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-cell-wide">
+                        <div class="row js--wp-1">
+                            <div class="col span-1-of-1">
+                                <img src="resources/sketches/dreaded-leaf.jpg">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -437,7 +464,7 @@
             </div>
         </footer>
         
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Waypoints -->

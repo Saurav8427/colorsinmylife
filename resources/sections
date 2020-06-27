@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="colorsinmylife: Saurav Singh, Arts and crafts obsessed and a front end web developer">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <!-- Columns -->
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <!-- Animation -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+        <!-- Favicon -->
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
+        <link rel="manifest" href="resources/favicons/site.webmanifest">
+        <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff"> -->
+        <title>Colorsinmylife</title>
+        
+    </head>
+    <body>
+
+        <header>
+            <div class="row">
+                <img src="resources/img/Saurav_Singh.jpeg">
+                <h1>WHO I AM</h1>
+                <p class="desc-box">Hey, Welcome. I am Saurav Singh, Athletic, Arts & Crafts obsessed and I am passionate about playing football and developing front end webpages. </p>
+                <p class="desc-box">I started my Bachelor's degree in Technology in Computer Science & Engineering in 2018 from IIIT Kota. </p>
+            </div>
+        </header>
+        
+        <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery-cell">
+                <div class="row js--wp-1">
+                    <div class="col span-1-of-1 box">
+                        <img src="resources/origami/aeroplane.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="row js--wp-1">
+                    <div class="col span-1-of-1 box">
+                        <img src="resources/origami/t-rex.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="row js--wp-1">
+                    <div class="col span-1-of-1 box">
+                        <img src="resources/origami/tree.jpg">
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+         <section class="section-origami js--section-features" id="features">
+            <div class="row">
+                <h2>origami</h2>
+                <p class="long-copy">
+                    I folded paper many times and come up with some nice stuff. Making these creatures with paper is great fun. Thanks to Jo Nakashima to helping with the designs.
+                </p>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/aeroplane.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/tree.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/man.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/wolf.jpg">
+                </div>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/heart.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/t-rex.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/tulip.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/nakamura.jpg">
+                </div>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/origami/bottle.jpg">
+                </div>
+                <div class="col span-1-of-4 box soon">
+                    <p>Coming<br>Soon</p>
+                </div>
+            </div>
+        </section> 
+        
+         <section class="section-captures js--section-features" id="features">
+            <div class="row">
+                <h2>Captures</h2>
+                <p class="long-copy">
+                    No doubt Nature is beautiful. The variety in flowers is endless, they have such vibrant colors in them that I tries to capture them and keep it in my collection.
+                </p>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/bigleaf-flower.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/branch-zoom.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/butterfly-blue-bg.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/colorful-flower.jpg">
+                </div>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/flower-road.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/dandelion.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/pigeon-bright.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/red-glown.jpg">
+                </div>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/pink-contrast-flower.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/maroon-flower.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/white-bright.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/yellow-flower.jpg">
+                </div>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/old-sunflower.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/red-zoom.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/curly-flower.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/red-buds.jpg">
+                </div>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/red-cluster.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/captures/cards.jpg">
+                </div>
+                <div class="col span-2-of-4 wide-box">
+                    <img class="wide" src="resources/captures/dreaded-leaf.jpg">
+                </div>
+            </div> 
+            
+            <div class="col span-1-of-4 box soon">
+                <p>Coming<br>Soon</p>
+            </div>
+        </section> 
+
+         <section class="section-sketches js--section-features" id="features">
+            <div class="row">
+                <h2>sketches</h2>
+                <p class="long-copy">
+                    We play with pencils every now and then, but sometimes I couldn't resist myself to make some sketches and when I try, the outcome is always satisfying.
+                </p>
+            </div>
+            
+            <div class="row js--wp-1">
+                <div class="col span-1-of-4 box">
+                    <img src="resources/sketches/coffee-cup.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/sketches/flower-zoomout-min.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/sketches/rbtagore.jpg">
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="resources/sketches/me.jpg">
+                </div>
+            </div>
+            <div class="row js--wp-1">
+                <div class="col span-2-of-4 wide-box">
+                    <img class="wide" src="resources/sketches/eye.jpg">
+                </div>
+                <div class="col span-2-of-4 wide-box">
+                    <img class="wide" src="resources/sketches/dreaded-leaf.jpg">
+                </div>
+                <div class="col span-1-of-4 box soon">
+                    <p>Coming<br>Soon</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col span-2-of-4">
+                    <p>Made with &#128154; by Saurav.</p>
+                </div>
+                <div class="col span-2-of-4">
+                    <ul class="social-links">
+                        <li><a href="#"><ion-icon name="logo-facebook" class="logo-facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter" class="logo-twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-google" class="logo-google"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram" class="logo-instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </footer>
+        
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Waypoints -->
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <!-- Icon Fonts -->
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="resources/js/script.js"></script>
+    <!-- <script src="resources/js/responsive.js"></script> -->
+    
+    </body>
+</html>

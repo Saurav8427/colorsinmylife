@@ -160,6 +160,31 @@ h2::after {
     margin-top: -5px;
 }
 
+/* ------- GALLERY ------- */
+.gallery {
+    padding: 1%;
+    background: #fff;
+}
+  
+.gallery-cell {
+    border: 2px solid #aaa;
+    border-radius: 1%;
+    text-align: center;
+    width: 24.5%;   
+    height: auto;
+    margin-right: 2%;
+    background-color: #fff;
+}
+
+.gallery-cell-wide {
+    border: 2px solid #aaa;
+    border-radius: 1%;
+    text-align: center;
+    width: 64.8%;
+    height: auto;
+    margin-right: 2%;
+}
+
 /* ----------------------------------------- */
 /* HEADER */
 /* ----------------------------------------- */ 
@@ -259,10 +284,40 @@ header h1 {
 
 .projects .box:hover {
     cursor: pointer;
-    background-color: #c2f5e6;
-    box-shadow: 0 2px 7px #999;
+    background-color: #e3f3ee;
+    box-shadow: 0 2px 5px #999;
 }
 
+/* ----------------------------------------- */
+/* CAROUSEL */
+/* ----------------------------------------- */ 
+
+.section-captures-carousel .gallery-cell-wide {
+    background-color: #f4f4f4;
+}
+
+.section-sketches-carousel .gallery-cell-wide {
+    width: 68.35%;
+    padding: 0 1%;
+    background-color: #fff;
+}
+
+.section-origami-carousel .box,
+.section-sketches-carousel .box  {
+    padding: 12px;
+    border-radius: 1%;
+    background-color: #fff;
+}
+
+.section-captures-carousel .box {
+    padding: 12px;
+    border-radius: 1%;
+    background-color: #f4f4f4;
+}
+
+.section-captures-carousel,
+.section-captures-carousel .gallery,
+.section-captures-carousel .gallery-cell { background-color: #f4f4f4; }
 
 /* ----------------------------------------- */
 /* ARTS & CRAFTS */
@@ -296,6 +351,22 @@ header h1 {
 /* IMAGES */
 /* ----------------------------------------- */ 
 
+.gallery-cell-wide img {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    transition: transform 0.5s, opacity 0.5s, filter 2s;
+}
+
+.section-origami-carousel img:hover,
+.section-captures-carousel img:hover,
+.section-sketches-carousel img:hover {
+    filter: brightness(1.15);
+}
+
+.section-sketches-carousel img,
+.section-captures-carousel img,
+.section-origami-carousel img,
 .section-origami img,
 .section-captures img,
 .section-sketches img {
