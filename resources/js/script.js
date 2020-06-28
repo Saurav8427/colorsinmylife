@@ -1,3 +1,11 @@
+
+setTimeout(function(){
+    $('.loader_bg').fadeToggle();
+}, 3000);
+
+/* ************************** JQUERY ************************** */
+
+
 $(document).ready(function() {
 
     /* ***************** Sticky Navigation ***************** */
