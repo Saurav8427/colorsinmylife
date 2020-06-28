@@ -191,6 +191,11 @@
         transform: scale(1.1);
     } */
 
+    .loader  {
+        top: calc(40vh - 75px);
+        left: calc(50vw - 75px);
+    }
+
     .section-captures-carousel .box {
         padding: 0;
     }
