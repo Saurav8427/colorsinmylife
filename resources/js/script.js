@@ -86,38 +86,33 @@ $(document).ready(function() {
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animate__animated animate__fadeInUp');
     }, {
-        offset: '35%'
+        offset: '40%'
     });
 
     $('.js--wp-2').waypoint(function(direction) {
         $('.js--wp-2').addClass('animate__animated animate__fadeIn');
     }, {
-        offset: '50%'
+        offset: '40%'
     });
 
     $('.js--wp-3').waypoint(function(direction) {
         $('.js--wp-3').addClass('animate__animated animate__fadeInBottomLeft');
     }, {
-        offset: '-10%'
+        offset: '30%'
     });
 
     $('.js--wp-4').waypoint(function(direction) {
         $('.js--wp-4').addClass('animate__animated animate__fadeInBottomLeft');
     }, {
-        offset: '-10%'
+        offset: '30%'
     });
 
     $('.js--wp-5').waypoint(function(direction) {
         $('.js--wp-5').addClass('animate__animated animate__fadeInBottomLeft');
     }, {
-        offset: '-10%'
+        offset: '30%'
     });
 
-    // $('.js--wp-4').waypoint(function(direction) {
-    //     $('.js--wp-4').addClass('animate__animated animate__pulse');
-    // }, {
-    //     offset: '50%'
-    // });
 
 
     /* ***************** Mobile nav ***************** */
