@@ -114,7 +114,6 @@ $(document).ready(function() {
     });
 
 
-
     /* ***************** Mobile nav ***************** */
 
     $('.js--nav-icon').click(function() {
@@ -125,8 +124,6 @@ $(document).ready(function() {
             return attr == 'reorder-three-outline' ? 'close-outline' : 'reorder-three-outline';
         });
     });
-
-
 
     /* ***************** Rough code for understanding ***************** */
 
