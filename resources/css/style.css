@@ -23,13 +23,13 @@ Seagreen : #1abc9c
     width: 150px;
     height: 150px;
     position: absolute;
-    top: calc(50vh - 75px);
-    left: calc(50vw - 75px);
+    top: calc(50vh - 150px);
+    left: calc(50vw - 95px);
 }
 
 .loader:before, .loader:after {
     content: '';
-    border: 1em solid #ff5733;
+    border: 1em solid #36ecb9;
     border-radius: 50%;
     width: inherit;
     height: inherit;
