@@ -192,8 +192,8 @@
     } */
 
     .loader  {
-        top: calc(40vh - 75px);
-        left: calc(50vw - 75px);
+        top: calc(40vh - 125px);
+        left: calc(50vw - 85px);
     }
 
     .section-captures-carousel .box {
